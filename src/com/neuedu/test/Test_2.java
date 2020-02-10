@@ -1,0 +1,1 @@
+package com.neuedu.test;import com.neuedu.test.I1;import com.neuedu.test.I2;import com.neuedu.test.MainBox;/** * Created by admin on 2020/2/6. */public class Test_2 {    public static void main(String[] args) {        I1 i1 = new I1();        I2 i2 = new I2();        MainBox mainBox = new MainBox();        mainBox.setCpu(i2);        mainBox.method();    }}
