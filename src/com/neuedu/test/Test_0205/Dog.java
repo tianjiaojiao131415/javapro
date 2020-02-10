@@ -1,0 +1,1 @@
+package com.neuedu.test.Test_0205;/** * Created by admin on 2020/2/5. */public class Dog extends Animal {    @Override    public void run() {        System.out.println("狗急跳墙");    }}
