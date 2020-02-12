@@ -1,0 +1,1 @@
+package Days_0212;/** * Created by admin on 2020/2/12. */public class MyChu implements MyInteface {    @Override    public int method(int a, int b) {        return a/b;    }}
