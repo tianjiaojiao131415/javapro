@@ -1,0 +1,1 @@
+package com.neuedu.test.service;import com.neuedu.test.pojo.Student;import java.util.List;/** * Created by admin on 2020/2/18. */public interface IsStudentService {    List<Student>  Query();    int add(Student student);    int Update(Student student);    int Del(int id);    Student queryOne(int id);}

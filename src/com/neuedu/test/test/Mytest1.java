@@ -1,0 +1,1 @@
+package com.neuedu.test.test;import com.neuedu.test.web.StudentWeb;/** * Created by admin on 2020/2/18. */public class Mytest1 {    public static void main(String[] args) {        //创建一个学生web        StudentWeb studentWeb = new StudentWeb();        studentWeb.ShowMain();        studentWeb.input();    }}
